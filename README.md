@@ -21,9 +21,11 @@ After copying the binary files and making it accessible to your search path, ple
 (5) Optional: write an option file (see below for options)
 
 (6) Run the pipeline with this command:
+
     gbirds ----map [population map file] --files [FASTQ list file]
     
-    Or, if you have an option file to pass:
+Or, if you have an option file to pass:
+    
     gbirds ----map [population map file] --files [FASTQ list file] --options [options file]
     
     
