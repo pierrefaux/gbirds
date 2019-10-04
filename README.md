@@ -1,6 +1,7 @@
 # GBirdS
 
 GBirdS is a pipeline for avian population genetics from GBS reads.
+
 See Faux et al. Fast genomic analysis of aquatic bird populations from short single-end reads considering sex-related pitfalls.
 
 
@@ -22,11 +23,11 @@ After copying the binary files and making it accessible to your search path, ple
 
 (6) Run the pipeline with this command:
 
-    gbirds ----map [population map file] --files [FASTQ list file]
+    gbirds --map [population map file] --files [FASTQ list file]
     
 Or, if you have an option file to pass:
     
-    gbirds ----map [population map file] --files [FASTQ list file] --options [options file]
+    gbirds --map [population map file] --files [FASTQ list file] --options [options file]
     
     
 
