@@ -11,14 +11,21 @@ The script "gbirds12.f90" includes all its dependencies (subroutines and functio
 
 After copying the binary files and making it accessible to your search path, please follow these steps to run the pipeline:
 (1) Make a new work directory
+
 (2) Copy the (unzipped) FASTQ files (sequencing lanes) to that directory
+
 (3) Copy the population map (see below) to that directory
+
 (4) Write a file containing the list of FASTQ, optionnaly followed in a 2nd (space-delimited) column by the number of reads in     each corresponding FASTQ 
+
 (5) Optional: write an option file (see below for options)
+
 (6) Run the pipeline with this command:
     gbirds ----map [population map file] --files [FASTQ list file]
+    
     Or, if you have an option file to pass:
     gbirds ----map [population map file] --files [FASTQ list file] --options [options file]
+    
     
 
 POPULATION FILE FORMAT:
