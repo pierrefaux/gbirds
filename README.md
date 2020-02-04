@@ -1,9 +1,9 @@
 # GBirdS
 
-GBirdS is a pipeline for avian population genetics from GBS reads.
+GBirdS is *a pipeline for avian population genetics from GBS reads*.
 
-See Faux et al. Fast genomic analysis of aquatic bird populations from short single-end reads considering sex-related pitfalls.
-
+See (and cite) : Faux, P. et al. _Fast genomic analysis of aquatic bird populations from short single-end reads considering sex-related pitfalls_. Ecological Informatics 56, 101058 (2020).
+(https://doi.org/10.1016/j.ecoinf.2020.101058)
 
 The current version of the pipeline (v1.2) includes two files:
   (1) gbirds12.f90 : the main body of the pipeline, including demultiplexing, sort of reads into unique sequences per sample and for the whole population, quality checks, identification of sex-linked sequences, genotype calling and filtering;
